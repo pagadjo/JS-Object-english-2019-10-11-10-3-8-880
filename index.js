@@ -7,11 +7,11 @@ function print(obj){
 var user = {}
 document.write("<i>Create a null object and set its variable name as user; </i><br>")
 document.write("var user = {}<br>");
-document.write("<br><i>Add a surname attribute and set its value as Mike</i><br>")
-user.surname = "Mike"
-print(user);
-document.write("<br><br><i>Add a name attribute and set its value as John</i><br>")
+document.write("<br><i>Add a name attribute and set its value as John</i><br>")
 user.name = "John";
+print(user);
+document.write("<br><br><i>Add a surname attribute and set its value as Mike</i><br>")
+user.surname = "Mike"
 print(user);
 user.name = "Peter";
 document.write("<br><br><i>Modify the value of name attribute as Peter</i><br>")
